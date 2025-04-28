@@ -1,10 +1,11 @@
 #top {
   width: 800px;
   background-color: #dcc9f4;
-  margin-top: 20px;
+  margin: 20px auto;
+  /* margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   text-align: center; 
 }
 .top-child {
@@ -18,16 +19,12 @@
   position: relative;
   width: 800px;
   height: 800px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto; 
+  margin: 20px auto; 
   background-color: #ffd9df;
 }
 #middle-child01, #middle-child02, #middle-child03 {
   width: 200px;
   height: 200px;
-  margin: 20px;
   background-color: #87ceeb;
 }
 #middle-child01 {
@@ -46,7 +43,6 @@
   left: 500px;
 }
 #bottom {
-  
   width: 800px;
   height: 300px;
   margin-left: auto;
@@ -62,7 +58,6 @@
   position: relative;
   left: 200px;
 }
-
 #bottom-child03 {
   position: relative;
   left: 400px;
